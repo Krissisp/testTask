@@ -1,0 +1,22 @@
+{
+  "name": "testtask",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Krisrina Palenykh",
+  "license": "ISC",
+  "bin": {
+    "index.js" : "./bin/index.js"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "@jest/globals": "^27.2.1",
+    "jest": "^27.0.6",
+    "jest-circus": "^27.0.6",
+    "jest-cli": "^27.0.6"
+  }
+}
